@@ -1,0 +1,44 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+table{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1),0 6px 20px 0 rgba(0,0,0,0.1);
+}
+table{
+  border:1px solid black;
+  padding:30px 100px 30px 100px;
+}
+td{
+  padding:20px;
+}
+label{
+  font-size: 20px;
+  display: inline-block;
+  width:100px;
+  float:left
+  text-align: center;
+  padding-right:80px;
+}
+
+
+.submit{
+  background:#0388fc;
+  border:none;
+  color:white;
+  font-weight:bold;
+  padding:10px 40px 10px 40px;
+  border-radius:10px;
+  margin-left:50px;
+  transition: all 500ms ease;
+  cursor:pointer;
+}
+.cancel{
+  background:#fa2839;
+  border:none;
+  color:white;
+  font-weight:bold;
+  padding:10px 30px 10px 30px;
+  border-radius:10px;
+  margin-left:60px;
+  cursor:pointer;
+}

@@ -1,0 +1,86 @@
+body{
+  color:#737373;
+  position:absolute;
+}
+
+table{
+  border-collapse:collapse;
+  text-align:center;
+  margin-top:100px;
+  position: relative;
+  top:0px;
+  left:70px;
+  margin-bottom:50px;
+}
+
+th{
+  padding-bottom:10px;
+}
+table thead th{ border-bottom: 2px solid #e8e8e8; }
+tr:last-child td{ border-bottom: 2px solid #e8e8e8; }
+
+td{
+  padding:20px 30px 20px 25px;
+}
+.center{
+  margin-top:100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button1{
+  background:#0388fc;
+  border:none;
+  color:white;
+  padding:10px 40px 10px 40px;
+  border-radius:10px;
+  margin-left:50px;
+}
+.button1:hover{
+  text-decoration: none;
+  color:white;
+}
+.addbutton{
+  position:relative;
+  float:right;
+  left:50px;
+  border:none;
+  border-radius: 5px;
+  color:white;
+  background-color:#3eb060;
+  padding:10px;
+}
+
+.button2{
+  background:#fa2839;
+  border:none;
+  color:white;
+  padding:10px 30px 10px 30px;
+  border-radius:10px;
+  margin-left:50px;
+}
+.button2:hover{
+  text-decoration: none;
+  color:white;
+}
+.homeheader{
+  font-size:35px;
+  color:black;
+  position: relative;
+
+  top:80px;
+  left:80px;
+  bottom:10px;
+
+}
+nav{
+  margin-top:20px;
+  margin-left:30px;
+}
+.nav-class{
+  margin:5px;
+  color:black;
+  text-decoration: none;
+}
+.nav-class:hover{
+  text-decoration:none;
+}
